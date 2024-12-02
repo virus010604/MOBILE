@@ -7,18 +7,31 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.viewpager.widget.ViewPager;
+
+import com.google.android.material.appbar.AppBarLayout;
+import com.google.android.material.tabs.TabLayout;
 
 public class MainActivity extends AppCompatActivity {
+
+    private TabLayout tabLayout;
+    private AppBarLayout appBarLayout;
+    private ViewPager viewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
+        tabLayout = (TabLayout)  findViewById(R.id.tab_layout_id);
+        appBarLayout = (AppBarLayout) findViewById(R.id.appBar_id);
+        viewPager = (ViewPager) findViewById(R.id.viewpager_id);
+        ViewPagerAdapter adapter = new ViewPagerAdapter((getSupportFragmentManager()));
+
+        adapter.AddFragment(new FragmentHome(), "Home");
+        adapter.AddFragment(new FragmentExplore(), "Explore");
+        adapter.AddFragment(new FragmentAccount(), "Account");
+
+        viewPager.setAdapter(adapter);
+        tabLayout.setupWithViewPager(viewPager);
     }
 }

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "28464293403",
+    "project_id": "f55123061-juan-modul5",
+    "storage_bucket": "f55123061-juan-modul5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28464293403:android:689ddcd307013057827abe",
+        "android_client_info": {
+          "package_name": "com.example.f55123061_juanmodul5"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMAfTda6ETkcKUxXYPoiXjgbaNjnrAF5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

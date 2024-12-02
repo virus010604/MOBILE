@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Percobaan7</string>
+    <string name="selamat_datang_di_sqlite">Selamat Datang di SQlite</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+</resources>

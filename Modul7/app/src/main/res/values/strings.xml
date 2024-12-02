@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Modul 7</string>
+    <string name="home">Home</string>
+    <string name="dasboard">Dasboard</string>
+    <string name="account">Account</string>
+    <string name="selamat_datang_di_sqlite">Selamat Datang di SQLite</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="selamat_datang_di_sqlite2">Selamat Datang di SQLite</string>
+    <string name="enter_username2">Enter Username</string>
+    <string name="enter_password2">Enter Password</string>
+    <string name="enter_confirmation_password">Enter Confirmation Password</string>
+    <string name="register2">REGISTER</string>
+    <string name="login2">LOGIN</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard">Dashboard</string>
+</resources>

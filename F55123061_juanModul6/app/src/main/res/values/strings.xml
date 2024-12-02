@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">F55123061_juan(Modul6)</string>
+    <string name="expoler_fragment">expoler Fragment</string>
+    <string name="home_fragment">home Fragment</string>
+    <string name="account_fragment">Account Fragment</string>
+    <string name="gambar_ikon_programmer">Gambar ikon programmer</string>
+    <string name="viewpager_untuk_navigasi_antar_halaman">ViewPager untuk navigasi antar halaman</string>
+    <string name="ininavbar">ininavbar</string>
 </resources>

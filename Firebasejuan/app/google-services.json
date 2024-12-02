@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "860575740986",
+    "project_id": "juaan04",
+    "storage_bucket": "juaan04.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860575740986:android:d37f120f7a0eeb3d753103",
+        "android_client_info": {
+          "package_name": "com.example.firebasejuan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIxmNizpG2z0j5O-uz1Mc0lpnWIhPekDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
