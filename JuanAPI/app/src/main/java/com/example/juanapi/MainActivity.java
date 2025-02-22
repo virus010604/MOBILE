@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         AsyncHttpClient client = new AsyncHttpClient();
         String url = "https://api.github.com/users";
 
-        client.addHeader("Authorization", "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");
+        client.addHeader("Authorization", "***********************");
         client.addHeader("User-Agent", "request");
 
         client.get(url, new AsyncHttpResponseHandler() {
